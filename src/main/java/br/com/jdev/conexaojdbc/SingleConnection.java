@@ -1,4 +1,4 @@
-package br.com.jdev.javabd.conexaojdbc;
+package br.com.jdev.conexaojdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,11 +1,11 @@
-package br.com.jdev.javabd;
+package br.com.jdev;
 
 import org.junit.Test;
 
-import br.com.jdev.javabd.conexaojdbc.SingleConnection;
+import br.com.jdev.conexaojdbc.SingleConnection;
 
 public class TesteBancojdbc {
-	
+
 	@Test
 	public void initBanco() {
 		SingleConnection.getConnection();
