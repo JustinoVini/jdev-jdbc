@@ -105,4 +105,12 @@ public class TesteBancojdbc {
 		}
 		
 	}
+	
+	@Test
+	public void testeDeleteUserfone() {
+		UserPosDAO dao = new UserPosDAO();
+		
+		dao.deleteFones(1L);
+	}
+	
 }
